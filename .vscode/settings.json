@@ -1,0 +1,19 @@
+
+{
+  "editor.tabSize": 2,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreview": false,
+  "prettier.requireConfig": true,
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // To get plugins working
+  "files.exclude": {
+      "**/public/*": true
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+}

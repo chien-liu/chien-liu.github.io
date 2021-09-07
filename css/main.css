@@ -1,0 +1,438 @@
+.header {
+	padding-top: 20px;
+	background: #4e67a1;
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.blog-card {
+	width: 50%;
+	margin-right: 20px;
+	position: relative;
+	border-radius: 2px;
+	min-height: 400px;
+}
+
+.book-list {
+	min-height: 400px;
+}
+
+.book-cards {
+	margin-top: 3rem;
+}
+
+.book-cell {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 3rem;
+	width: 100%; 
+}
+
+.book-container {
+	min-width: 150px;
+	margin-right: 20px;
+}
+
+.book-figure {
+	height: 180px;
+	object-fit: contain;
+}
+
+.book-info {
+	width: 80%;
+}
+
+@media only screen and (max-width: 700px) {
+	.blog-card {
+		width: 100%;
+	}
+}
+
+.quote p {
+	height: 100%;
+}
+.project-image {
+	transition: all .4s ease-in-out;
+}
+
+.project-image:hover {
+	transform: scale(1.1);
+}
+
+.reveal-title {
+	color: red;
+}
+
+.footer-content {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%; 
+}
+
+html {
+	font-size: 18px; 
+}
+
+.last-elem {
+	padding-bottom: 5rem;
+}
+
+p,
+li {
+	line-height: 2;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+a {
+	font-family: "Josefin Sans", Helvetica, sans-serif;
+}
+nav {
+	background-color: #3d4351;
+	color: #fc8080;
+}
+
+#nav-mobile-section,
+#nav-mobile-section li,
+#nav-mobile-section ul,
+#nav-mobile-section a {
+	height: 100%;
+}
+
+#nav-mobile-section a {
+	padding-top: 15px;
+}
+
+.nav-bar a {
+	font-size: 1.5 em;
+	color: #fc8080;
+}
+
+.nav-bar a:hover {
+	color: #ff9a9a;
+	text-decoration: none;
+}
+
+
+#about-me {
+	padding-top: 40px;
+	min-height: 100vh;
+}
+
+.profile {
+	display: flex; 
+	align-items: center;
+}
+
+
+.profile-pic {
+	object-fit: cover;
+  border-radius:50%;
+	width: 300px;
+	display: block; 
+	height: 300px;
+}
+
+.profile-intro {
+	width: 60%;
+	margin-left: 30px;  
+}
+
+.profile-pic-container {
+	width: 40%; 
+}
+
+@media only screen and (max-width: 1000px) {
+	.profile-pic-container {
+		width: 100%; 
+	}
+
+	.profile {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.profile-pic {
+		margin: auto; 
+	}
+
+	.profile-intro {
+		margin-top: 30px; 
+		width: 90%; 
+	}
+}
+
+.profile-link-wrapper { 
+	width: 60%;
+	margin: auto;
+	margin-top: 5rem; 
+}
+
+.profile-link {
+	width: 70%; 
+	margin: auto; 
+	display: flex; 
+	justify-content:space-between;
+	
+}
+
+#my-story {
+	padding-top: 40px;
+}
+
+#experience {
+	padding-top: 20px;
+}
+
+#skills {
+	padding-top: 20px;
+}
+
+.wrap {
+	padding-bottom: 2rem; 
+}
+
+.projects {
+	padding-top: 20px;
+}
+
+.project-cards {
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+}
+
+@media only screen and (max-width: 700px) {
+	.project-cards {
+		flex-direction: column;
+	}
+}
+
+.card-title {
+	font-size: 20px !important;
+}
+
+a {
+	color: #ff6b6b; 
+}
+
+.card-action {
+	font-size: 14px !important;
+}
+#contact-me {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.timeline-section body {
+	color: #768390;
+	background: #fff;
+	font-family: "Effra", Helvetica, sans-serif;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+.timeline-section h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #3d4351;
+	margin-top: 0;
+}
+
+.timeline-section a {
+	color: #ff6b6b;
+}
+.timeline-section a:hover {
+	color: #ff9a9a;
+	text-decoration: none;
+}
+
+.timeline-section .example-header {
+	background: #3d4351;
+	color: #fff;
+	font-weight: 300;
+	padding: 3em 1em;
+	text-align: center;
+}
+.timeline-section .example-header h1 {
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.timeline-section .example-header p {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 700;
+}
+
+.timeline-section .container-fluid .row:nth-child(even) {
+	background: #f1f4f5;
+}
+
+.example-title {
+	text-align: center;
+	margin-bottom: 60px;
+	padding: 3em 0;
+	border-bottom: 1px solid #e4eaec;
+}
+.example-title p {
+	margin: 0 auto;
+	font-size: 16px;
+	max-width: 400px;
+}
+
+/*==================================
+    TIMELINE
+==================================*/
+/*-- GENERAL STYLES
+------------------------------*/
+.timeline {
+	line-height: 1.4em;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.timeline h1,
+.timeline h2,
+.timeline h3,
+.timeline h4,
+.timeline h5,
+.timeline h6 {
+	line-height: inherit;
+}
+
+/*----- TIMELINE ITEM -----*/
+.timeline-item {
+	padding-left: 40px;
+	position: relative;
+}
+.timeline-item:last-child {
+	padding-bottom: 0;
+}
+
+/*----- TIMELINE INFO -----*/
+.timeline-info {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	margin: 0 0 .5em 0;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+/*----- TIMELINE MARKER -----*/
+.timeline-marker {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 15px;
+}
+.timeline-marker:before {
+	background: #ff6b6b;
+	border: 3px solid transparent;
+	border-radius: 100%;
+	content: "";
+	display: block;
+	height: 15px;
+	position: absolute;
+	top: 4px;
+	left: 0;
+	width: 15px;
+	transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.timeline-marker:after {
+	content: "";
+	width: 3px;
+	background: #ccd5db;
+	display: block;
+	position: absolute;
+	top: 24px;
+	bottom: 0;
+	left: 6px;
+}
+.timeline-item:last-child .timeline-marker:after {
+	content: none;
+}
+
+.timeline-item:not(.period):hover .timeline-marker:before {
+	background: transparent;
+	border: 3px solid #ff6b6b;
+}
+
+/*----- TIMELINE CONTENT -----*/
+.timeline-content {
+	padding-bottom: 30px;
+}
+.timeline-content p:last-child {
+	margin-bottom: 0;
+}
+
+/*----- TIMELINE PERIOD -----*/
+.period {
+	padding: 0;
+}
+.period .timeline-info {
+	display: none;
+}
+.period .timeline-marker:before {
+	background: transparent;
+	content: "";
+	width: 15px;
+	height: auto;
+	border: none;
+	border-radius: 0;
+	top: 0;
+	bottom: 30px;
+	position: absolute;
+	border-top: 3px solid #ccd5db;
+	border-bottom: 3px solid #ccd5db;
+}
+.period .timeline-marker:after {
+	content: "";
+	height: 32px;
+	top: auto;
+}
+.period .timeline-content {
+	padding: 40px 0 70px;
+}
+.period .timeline-title {
+	margin: 0;
+}
+
+/*----------------------------------------------
+    MOD: MARKER OUTLINE
+----------------------------------------------*/
+.marker-outline .timeline-marker:before {
+	background: transparent;
+	border-color: #ff6b6b;
+}
+.marker-outline .timeline-item:hover .timeline-marker:before {
+	background: #ff6b6b;
+}
