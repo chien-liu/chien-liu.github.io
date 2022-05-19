@@ -1,0 +1,3 @@
+[submodule "german-a1"]
+	path = german-a1
+	url = https://github.com/chien-liu/german-a1.git
