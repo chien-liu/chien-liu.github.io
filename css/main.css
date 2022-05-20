@@ -1,6 +1,6 @@
 .header {
 	padding-top: 20px;
-	background: #4e67a1;
+	background: #208AAE;
 	color: #fff;
 	font-weight: 300;
 	text-align: center;
@@ -35,7 +35,7 @@
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 3rem;
-	width: 100%; 
+	width: 100%;
 }
 
 .book-container {
@@ -61,6 +61,7 @@
 .quote p {
 	height: 100%;
 }
+
 .project-image {
 	transition: all .4s ease-in-out;
 }
@@ -85,11 +86,11 @@
 body {
 	display: flex;
 	flex-direction: column;
-	height: 100%; 
+	height: 100%;
 }
 
 html {
-	font-size: 18px; 
+	font-size: 18px;
 }
 
 .last-elem {
@@ -117,8 +118,9 @@ button,
 a {
 	font-family: "Josefin Sans", Helvetica, sans-serif;
 }
+
 nav {
-	background-color: #3d4351;
+	background-color: #CFD7C7;
 	color: #fc8080;
 }
 
@@ -135,7 +137,7 @@ nav {
 
 .nav-bar a {
 	font-size: 1.5 em;
-	color: #fc8080;
+	color: #031D44;
 }
 
 .nav-bar a:hover {
@@ -150,31 +152,31 @@ nav {
 }
 
 .profile {
-	display: flex; 
+	display: flex;
 	align-items: center;
 }
 
 
 .profile-pic {
 	object-fit: cover;
-  border-radius:50%;
+	border-radius: 50%;
 	width: 300px;
-	display: block; 
+	display: block;
 	height: 300px;
 }
 
 .profile-intro {
 	width: 60%;
-	margin-left: 30px;  
+	margin-left: 30px;
 }
 
 .profile-pic-container {
-	width: 40%; 
+	width: 40%;
 }
 
 @media only screen and (max-width: 1000px) {
 	.profile-pic-container {
-		width: 100%; 
+		width: 100%;
 	}
 
 	.profile {
@@ -183,27 +185,27 @@ nav {
 	}
 
 	.profile-pic {
-		margin: auto; 
+		margin: auto;
 	}
 
 	.profile-intro {
-		margin-top: 30px; 
-		width: 90%; 
+		margin-top: 30px;
+		width: 90%;
 	}
 }
 
-.profile-link-wrapper { 
+.profile-link-wrapper {
 	width: 60%;
 	margin: auto;
-	margin-top: 5rem; 
+	margin-top: 5rem;
 }
 
 .profile-link {
-	width: 70%; 
-	margin: auto; 
-	display: flex; 
-	justify-content:space-between;
-	
+	width: 70%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+
 }
 
 #my-story {
@@ -219,7 +221,7 @@ nav {
 }
 
 .wrap {
-	padding-bottom: 2rem; 
+	padding-bottom: 2rem;
 }
 
 .projects {
@@ -243,16 +245,18 @@ nav {
 }
 
 a {
-	color: #ff6b6b; 
+	color: #EA4859;
 }
 
 .card-action {
 	font-size: 14px !important;
 }
+
 #contact-me {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
 .timeline-section body {
 	color: #768390;
 	background: #fff;
@@ -272,10 +276,11 @@ h6 {
 }
 
 .timeline-section a {
-	color: #ff6b6b;
+	color: #EA4859;
 }
+
 .timeline-section a:hover {
-	color: #ff9a9a;
+	color: #EA4859;
 	text-decoration: none;
 }
 
@@ -286,11 +291,13 @@ h6 {
 	padding: 3em 1em;
 	text-align: center;
 }
+
 .timeline-section .example-header h1 {
 	color: #fff;
 	font-weight: 300;
 	margin-bottom: 20px;
 }
+
 .timeline-section .example-header p {
 	font-size: 12px;
 	text-transform: uppercase;
@@ -308,6 +315,7 @@ h6 {
 	padding: 3em 0;
 	border-bottom: 1px solid #e4eaec;
 }
+
 .example-title p {
 	margin: 0 auto;
 	font-size: 16px;
@@ -326,6 +334,7 @@ h6 {
 	padding: 0;
 	width: 100%;
 }
+
 .timeline h1,
 .timeline h2,
 .timeline h3,
@@ -340,6 +349,7 @@ h6 {
 	padding-left: 40px;
 	position: relative;
 }
+
 .timeline-item:last-child {
 	padding-bottom: 0;
 }
@@ -362,6 +372,7 @@ h6 {
 	left: 0;
 	width: 15px;
 }
+
 .timeline-marker:before {
 	background: #ff6b6b;
 	border: 3px solid transparent;
@@ -375,6 +386,7 @@ h6 {
 	width: 15px;
 	transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
 }
+
 .timeline-marker:after {
 	content: "";
 	width: 3px;
@@ -385,6 +397,7 @@ h6 {
 	bottom: 0;
 	left: 6px;
 }
+
 .timeline-item:last-child .timeline-marker:after {
 	content: none;
 }
@@ -398,6 +411,7 @@ h6 {
 .timeline-content {
 	padding-bottom: 30px;
 }
+
 .timeline-content p:last-child {
 	margin-bottom: 0;
 }
@@ -406,9 +420,11 @@ h6 {
 .period {
 	padding: 0;
 }
+
 .period .timeline-info {
 	display: none;
 }
+
 .period .timeline-marker:before {
 	background: transparent;
 	content: "";
@@ -422,14 +438,17 @@ h6 {
 	border-top: 3px solid #ccd5db;
 	border-bottom: 3px solid #ccd5db;
 }
+
 .period .timeline-marker:after {
 	content: "";
 	height: 32px;
 	top: auto;
 }
+
 .period .timeline-content {
 	padding: 40px 0 70px;
 }
+
 .period .timeline-title {
 	margin: 0;
 }
@@ -441,6 +460,7 @@ h6 {
 	background: transparent;
 	border-color: #ff6b6b;
 }
+
 .marker-outline .timeline-item:hover .timeline-marker:before {
 	background: #ff6b6b;
 }
