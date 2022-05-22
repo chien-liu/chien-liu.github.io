@@ -137,11 +137,12 @@ nav {
 
 .nav-bar a {
 	font-size: 1.5 em;
-	color: #031D44;
+	color: #60594d;
+	font-weight: 600;
 }
 
 .nav-bar a:hover {
-	color: #ff9a9a;
+	color: #ea4859;
 	text-decoration: none;
 }
 
